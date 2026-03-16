@@ -15,10 +15,6 @@
       "groupName": "dev dependencies",
       "automerge": true,
       "automergeType": "pr"
-    },
-    {
-      "matchPackageNames": ["axios"],
-      "enabled": false
     }
   ]
 }
