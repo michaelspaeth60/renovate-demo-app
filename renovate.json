@@ -7,8 +7,8 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch"],
-      "groupName": "dev dependencies (patch)",
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "dev dependencies",
       "automerge": true,
       "automergeType": "pr"
     },
