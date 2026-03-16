@@ -4,4 +4,10 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ]
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],  // <-- Matcher
+      "groupName": "dev dependencies"        // <-- Aktion
+    }
+  ]
 }
