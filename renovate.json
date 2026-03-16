@@ -6,6 +6,8 @@
   ],
   "schedule": ["before 6am on monday"],
   "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 3,
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
